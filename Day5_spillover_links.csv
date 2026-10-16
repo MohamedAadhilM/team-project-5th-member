@@ -1,0 +1,9 @@
+source_region_id,target_region_id,connection_type,spillover_weight
+R01,R02,Customer substitution,0.35
+R01,R05,Shared logistics,0.2
+R04,R03,Customer substitution,0.3
+R04,R06,Shared logistics,0.15
+R02,R01,Customer substitution,0.1
+R03,R04,Customer substitution,0.1
+R05,R07,Shared logistics,0.12
+R06,R08,Shared logistics,0.1

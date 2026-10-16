@@ -1,0 +1,9 @@
+region_id,recommended_use,post_period_mean_network_exposure
+R01,Treated,0.0
+R02,Exposed control - use with caution,0.35
+R03,Exposed control - use with caution,0.3
+R04,Treated,0.0
+R05,Exposed control - use with caution,0.2
+R06,Exposed control - use with caution,0.15
+R07,Clean donor (no direct exposure; 2nd-order via R05),0.0
+R08,Clean donor (no direct exposure; 2nd-order via R06),0.0
