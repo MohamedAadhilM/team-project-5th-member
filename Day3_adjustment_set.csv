@@ -1,0 +1,16 @@
+variable,adjustment_decision
+competitor_price,minimal
+demand_index,minimal
+holiday_flag,precision covariate
+inventory_pressure,minimal
+local_event_flag,precision covariate
+marketing_spend,precision covariate
+post_period,minimal
+promotion_flag,precision covariate
+region_income_index,minimal
+seasonality_index,precision covariate
+weather_index,precision covariate
+weekend_flag,precision covariate
+dynamic_price_multiplier,do NOT adjust (mediator)
+selling_price,do NOT adjust (mediator)
+units,do NOT adjust (mediator)

@@ -1,0 +1,20 @@
+variable,role,rationale,data_status
+pricing_treatment_flag,treatment,Algorithmic pricing active (0/1),column in data
+revenue,outcome,Revenue = selling_price x units,column in data
+region_income_index,confounders,Pre-treatment driver of rollout and/or revenue; adjust,column in data
+post_period,confounders,Pre-treatment driver of rollout and/or revenue; adjust,column in data
+seasonality_index,confounders,Pre-treatment driver of rollout and/or revenue; adjust,column in data
+demand_index,confounders,Pre-treatment driver of rollout and/or revenue; adjust,column in data
+holiday_flag,confounders,Pre-treatment driver of rollout and/or revenue; adjust,column in data
+weekend_flag,confounders,Pre-treatment driver of rollout and/or revenue; adjust,column in data
+local_event_flag,confounders,Pre-treatment driver of rollout and/or revenue; adjust,column in data
+weather_index,confounders,Pre-treatment driver of rollout and/or revenue; adjust,column in data
+marketing_spend,confounders,Pre-treatment driver of rollout and/or revenue; adjust,column in data
+competitor_price,confounders,Pre-treatment driver of rollout and/or revenue; adjust,column in data
+inventory_pressure,confounders,Pre-treatment driver of rollout and/or revenue; adjust,column in data
+promotion_flag,confounders,Pre-treatment driver of rollout and/or revenue; adjust,column in data
+dynamic_price_multiplier,mediators,On path treatment -> revenue; do not adjust,column in data
+selling_price,mediators,On path treatment -> revenue; do not adjust,column in data
+units,mediators,On path treatment -> revenue; do not adjust,column in data
+neighbor_treatment,interference,Created by neighbouring regions treatment; spillover,latent (derived from region_network.csv)
+network_exposure,interference,Created by neighbouring regions treatment; spillover,column in data

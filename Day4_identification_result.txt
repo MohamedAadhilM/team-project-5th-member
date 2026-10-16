@@ -1,0 +1,9 @@
+IDENTIFICATION RESULT (derived with the backdoor criterion in causal_graph.py; DoWhy not run - see dowhy_identify.py)
+Treatment : pricing_treatment_flag
+Outcome   : revenue
+Backdoor set (minimal)     : competitor_price, demand_index, inventory_pressure, post_period, region_income_index
+Backdoor set (recommended) : competitor_price, demand_index, holiday_flag, inventory_pressure, local_event_flag, marketing_spend, post_period, promotion_flag, region_income_index, seasonality_index, weather_index, weekend_flag
+Not adjusted (mediators)   : dynamic_price_multiplier, selling_price, units
+Estimand  : E[revenue | do(pricing_treatment_flag = t)] = E_Z[ E[revenue | pricing_treatment_flag = t, Z] ],  Z = backdoor set above
+Effect    : ATE/ATT = E[revenue | do(T=1)] - E[revenue | do(T=0)]
+Dataset   : Day4_analysis_dataset_provisional.csv  (11660 rows x 22 columns)

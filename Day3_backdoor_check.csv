@@ -1,0 +1,7 @@
+candidate_set,variables,valid_backdoor_set
+No adjustment,-,False
+Minimal set,"competitor_price, demand_index, inventory_pressure, post_period, region_income_index",True
+Full recommended set,"competitor_price, demand_index, holiday_flag, inventory_pressure, local_event_flag, marketing_spend, post_period, promotion_flag, region_income_index, seasonality_index, weather_index, weekend_flag",True
+Full set + selling_price (mediator),"competitor_price, demand_index, holiday_flag, inventory_pressure, local_event_flag, marketing_spend, post_period, promotion_flag, region_income_index, seasonality_index, selling_price, weather_index, weekend_flag",False
+Full set + units (mediator),"competitor_price, demand_index, holiday_flag, inventory_pressure, local_event_flag, marketing_spend, post_period, promotion_flag, region_income_index, seasonality_index, units, weather_index, weekend_flag",False
+Full set + network_exposure,"competitor_price, demand_index, holiday_flag, inventory_pressure, local_event_flag, marketing_spend, network_exposure, post_period, promotion_flag, region_income_index, seasonality_index, weather_index, weekend_flag",True
