@@ -1,0 +1,12 @@
+item,specification,rationale
+estimand,ATT-style average effect of pricing_treatment_flag on revenue (partially linear model Y = theta*T + g(W) + e),Week 1 causal question
+treatment (T),pricing_treatment_flag,"binary rollout flag; treated R01, R04 from 2026-07-01"
+outcome (Y),revenue,revenue = selling_price x units at date-region-product
+confounders (W),"demand_index, seasonality_index, holiday_flag, weekend_flag, local_event_flag, weather_index, marketing_spend, competitor_price, inventory_pressure, promotion_flag, post_period",Week 1 adjustment set (time-varying part)
+never adjusted,"dynamic_price_multiplier, selling_price, units",mediators on the T -> Y path
+region FE handling,"within-transform Y, T and W by region x product","T is fully determined by region x post, so region identity must be partialled out (positivity)"
+nuisance learners,"E[Y|W] and E[T|W] with gradient boosting (alternatives: random forest, lasso)","flexible, handles high-dimensional W"
+cross-fitting,5-fold GroupKFold by ISO week,avoids overfitting bias; keeps neighbouring days together
+estimator,theta = sum(res_T * res_Y) / sum(res_T^2) (Robinson partialling-out),Neyman-orthogonal score
+standard error,HC1-style robust sandwich on residual scores,only 2 treated regions: cluster-robust SE would be unreliable
+sensitivity (Day 4),"clean donors only, log outcome, learners, seeds, folds, placebo date",spillover and stability checks

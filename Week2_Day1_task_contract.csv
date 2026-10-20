@@ -1,0 +1,6 @@
+kind,name,content,hand-off
+input,data/analysis_dataset.csv,"date, region_id, product_id, revenue, pricing_treatment_flag, W columns",from M2 panel / Week 1 provisional merge
+input,confounder list,from M3 (DAG review) - currently Week 1 adjustment set,M3 -> M5
+output,Week2_Day3_dml_estimate.csv,"theta, se, ci_low, ci_high, p_value, n","M5 -> M6 (validation, final report)"
+output,Week2_Day4_dml_robustness.csv,estimates under sensitivity variants,M5 -> M6
+not needed,synthetic control weights (M4),DML does not use SC weights; compared in M6 final report,-
