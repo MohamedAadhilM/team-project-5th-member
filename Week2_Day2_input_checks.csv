@@ -1,0 +1,9 @@
+check,passed,detail
+required columns present,True,-
+no missing in modeling columns,True,0
+treatment is binary,True,"[0, 1]"
+unique date-region-product key,True,0
+revenue >= 0,True,28.19
+treated regions only treated after intervention,True,2026-07-01
+no mediators in confounder set,True,-
+pre and post periods both present,True,"{0: 8684, 1: 2976}"
