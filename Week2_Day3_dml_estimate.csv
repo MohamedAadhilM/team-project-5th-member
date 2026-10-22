@@ -1,0 +1,2 @@
+theta,se,ci_low,ci_high,p_value,resid_T_var,r2_T,r2_Y,n,outcome,learner,folds
+-0.3053,11.6433,-23.1261,22.5155,0.9791,0.016,0.6625,0.0057,11660,revenue,gbr,5
