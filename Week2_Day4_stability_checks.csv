@@ -1,0 +1,8 @@
+check,passed,detail
+no missing/infinite estimates,True,0
+residual treatment variance > 0.005 (positivity after partialling-out),True,0.0062
+baseline CI excludes zero,False,"[-23.1, 22.5]"
+sign stable across variants (revenue level),True,0 of 12 flip
+seed stability: spread of theta <= 1 SE,True,1.58
+fold stability: fold thetas agree in sign,False,-29.6 to 54.0
+placebo effects insignificant,True,"p=0.27, p=0.74"
