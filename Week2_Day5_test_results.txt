@@ -1,0 +1,12 @@
+test_dataset_has_fold_column (test_dml_pipeline.TestPipeline.test_dataset_has_fold_column) ... ok
+test_folds_are_disjoint_and_cover_all_rows (test_dml_pipeline.TestPipeline.test_folds_are_disjoint_and_cover_all_rows) ... ok
+test_recovers_known_effect (test_dml_pipeline.TestPipeline.test_recovers_known_effect) ... ok
+test_validation_flags_missing_values (test_dml_pipeline.TestPipeline.test_validation_flags_missing_values) ... ok
+test_validation_passes_on_clean_panel (test_dml_pipeline.TestPipeline.test_validation_passes_on_clean_panel) ... ok
+test_within_transform_removes_group_means (test_dml_pipeline.TestPipeline.test_within_transform_removes_group_means) ... ok
+test_zero_effect_not_significant (test_dml_pipeline.TestPipeline.test_zero_effect_not_significant) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.552s
+
+OK
