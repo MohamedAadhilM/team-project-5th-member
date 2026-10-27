@@ -1,0 +1,9 @@
+region_id,role,post_mean_network_exposure,decision,pre_mean_revenue_per_product_day
+R01,treated,0.0,treated unit,328.3
+R02,donor candidate,0.35,alternate pool only (spillover-exposed),288.42
+R03,donor candidate,0.3,alternate pool only (spillover-exposed),264.69
+R04,treated,0.0,treated unit,318.59
+R05,donor candidate,0.2,alternate pool only (spillover-exposed),284.89
+R06,donor candidate,0.15,alternate pool only (spillover-exposed),247.41
+R07,donor candidate,0.0,FROZEN primary pool,217.3
+R08,donor candidate,0.0,FROZEN primary pool,236.34

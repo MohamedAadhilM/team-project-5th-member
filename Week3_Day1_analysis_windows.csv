@@ -1,0 +1,5 @@
+window,start,end,n_weeks,use
+pre-treatment (learning),2026-01-07,2026-06-30,25,"weights, folds, baseline MSPE"
+post-treatment (effect),2026-07-01,2026-08-25,8,gap between treated and synthetic
+dropped partial blocks,2026-01-01..2026-01-05 and 2026-08-26..2026-08-31,-,0,7-day blocks anchored at 2026-07-01
+outcome,"revenue (mean per product-day), 7-day mean, indexed to own pre-mean = 100",-,0,daily series are too noisy: pre-period daily correlation between regions is ~0

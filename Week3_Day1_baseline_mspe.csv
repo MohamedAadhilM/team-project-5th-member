@@ -1,0 +1,10 @@
+treated_unit,baseline,pre_MSPE,note,pre_RMSPE
+R01,constant pre-mean (=100),74.82,naive floor: SC must beat this,8.65
+R01,equal-weight clean donors,89.59,simple donor average,9.47
+R01,equal-weight all 6 controls,72.5,simple donor average,8.51
+R04,constant pre-mean (=100),118.85,naive floor: SC must beat this,10.9
+R04,equal-weight clean donors,192.08,simple donor average,13.86
+R04,equal-weight all 6 controls,139.64,simple donor average,11.82
+TREATED_AVG,constant pre-mean (=100),50.24,naive floor: SC must beat this,7.09
+TREATED_AVG,equal-weight clean donors,94.24,simple donor average,9.71
+TREATED_AVG,equal-weight all 6 controls,59.48,simple donor average,7.71
