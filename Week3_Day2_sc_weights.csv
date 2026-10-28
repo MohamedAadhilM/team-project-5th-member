@@ -1,0 +1,25 @@
+treated_unit,donor_pool,donor,weight,donor_type
+R01,clean (frozen primary),R07,0.602,clean
+R01,clean (frozen primary),R08,0.398,clean
+R01,all 6 controls (alternate),R02,0.143,exposed
+R01,all 6 controls (alternate),R03,0.1,exposed
+R01,all 6 controls (alternate),R05,0.139,exposed
+R01,all 6 controls (alternate),R06,0.129,exposed
+R01,all 6 controls (alternate),R07,0.346,clean
+R01,all 6 controls (alternate),R08,0.145,clean
+R04,clean (frozen primary),R07,0.538,clean
+R04,clean (frozen primary),R08,0.462,clean
+R04,all 6 controls (alternate),R02,0.0,exposed
+R04,all 6 controls (alternate),R03,0.035,exposed
+R04,all 6 controls (alternate),R05,0.489,exposed
+R04,all 6 controls (alternate),R06,0.469,exposed
+R04,all 6 controls (alternate),R07,0.007,clean
+R04,all 6 controls (alternate),R08,0.0,clean
+TREATED_AVG,clean (frozen primary),R07,0.57,clean
+TREATED_AVG,clean (frozen primary),R08,0.43,clean
+TREATED_AVG,all 6 controls (alternate),R02,0.03,exposed
+TREATED_AVG,all 6 controls (alternate),R03,0.078,exposed
+TREATED_AVG,all 6 controls (alternate),R05,0.346,exposed
+TREATED_AVG,all 6 controls (alternate),R06,0.331,exposed
+TREATED_AVG,all 6 controls (alternate),R07,0.184,clean
+TREATED_AVG,all 6 controls (alternate),R08,0.031,clean

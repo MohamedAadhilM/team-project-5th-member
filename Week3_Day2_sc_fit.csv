@@ -1,0 +1,7 @@
+treated_unit,donor_pool,pre_MSPE,pre_RMSPE,constant_baseline_MSPE,skill_vs_constant,post_MSPE,ATT_index_pts,ATT_revenue_per_product_day,ATT_pct_of_counterfactual,fit_verdict
+R01,clean (frozen primary),87.642,9.362,74.819,-0.171,121.028,5.923,19.446,6.353,fit no better than constant baseline
+R01,all 6 controls (alternate),68.808,8.295,74.819,0.08,58.781,4.434,14.557,4.681,fit beats constant baseline
+R04,clean (frozen primary),191.802,13.849,118.847,-0.614,104.073,-4.314,-13.744,-4.639,fit no better than constant baseline
+R04,all 6 controls (alternate),120.711,10.987,118.847,-0.016,156.017,-6.045,-19.258,-6.381,fit no better than constant baseline
+TREATED_AVG,clean (frozen primary),93.317,9.66,50.239,-0.857,57.981,0.805,2.602,0.864,fit no better than constant baseline
+TREATED_AVG,all 6 controls (alternate),54.331,7.371,50.239,-0.081,33.062,-0.878,-2.841,-0.926,fit no better than constant baseline
