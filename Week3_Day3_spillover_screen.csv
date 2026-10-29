@@ -1,0 +1,5 @@
+exposed_control,post_mean_network_exposure,post_gap_index_pts,post_gap_rev_per_product_day,pre_RMSPE_idx,gap_over_RMSPE,reading
+R02,0.35,4.3,12.4,12.25,0.35,within normal pre-period noise
+R03,0.3,3.81,10.07,11.84,0.32,within normal pre-period noise
+R05,0.2,1.69,4.8,11.24,0.15,within normal pre-period noise
+R06,0.15,2.03,5.03,9.97,0.2,within normal pre-period noise

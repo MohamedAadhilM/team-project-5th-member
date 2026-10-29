@@ -1,0 +1,5 @@
+treated_region,donor_pool,SC_ATT_rev_per_product_day,SC_ATT_pct,SC_pre_RMSPE_idx,SC_skill_vs_constant,DML_theta,DML_se,DML_ci_low,DML_ci_high,DML_p,flags
+R01,clean (frozen primary),19.45,6.35,9.36,-0.17,-143.23,100.73,-340.7,54.2,0.155,sign disagreement; differ by > 1 DML SE; DML unstable (residual treatment variance 0.0004 < 0.01); DML CI includes 0; SC pre-fit not better than constant
+R01,all 6 controls (alternate),14.56,4.68,8.3,0.08,12.92,49.49,-84.1,109.9,0.794,DML unstable (residual treatment variance 0.0009 < 0.01); DML CI includes 0; donors include spillover-exposed regions
+R04,clean (frozen primary),-13.74,-4.64,13.85,-0.61,-3.05,13.96,-30.4,24.3,0.827,DML CI includes 0; SC pre-fit not better than constant
+R04,all 6 controls (alternate),-19.26,-6.38,10.99,-0.02,-9.51,13.86,-36.7,17.7,0.493,DML CI includes 0; SC pre-fit not better than constant; donors include spillover-exposed regions
