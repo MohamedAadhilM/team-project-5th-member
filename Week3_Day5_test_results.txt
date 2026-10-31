@@ -1,0 +1,11 @@
+test_effect_recovered_with_low_pre_error (test_week3_sc.TestSC.test_effect_recovered_with_low_pre_error) ... ok
+test_mspe_formula (test_week3_sc.TestSC.test_mspe_formula) ... ok
+test_rolling_folds_have_no_leakage (test_week3_sc.TestSC.test_rolling_folds_have_no_leakage) ... ok
+test_weeks_are_full_and_anchored (test_week3_sc.TestSC.test_weeks_are_full_and_anchored) ... ok
+test_weights_do_not_use_post_period_data (test_week3_sc.TestSC.test_weights_do_not_use_post_period_data) ... ok
+test_weights_valid_and_recovered (test_week3_sc.TestSC.test_weights_valid_and_recovered) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.055s
+
+OK

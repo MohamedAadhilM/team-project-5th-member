@@ -1,0 +1,55 @@
+scheme,fold,treated_unit,donor_pool,train_weeks,test_weeks,test_MSPE_SC,test_MSPE_constant,test_MSPE_equal_weight,SC_beats_constant
+rolling,1,R01,clean,9,4,110.29,114.67,110.67,True
+rolling,1,R01,all 6 controls,9,4,284.09,114.67,146.43,False
+rolling,1,R04,clean,9,4,344.75,238.47,316.7,False
+rolling,1,R04,all 6 controls,9,4,278.85,238.47,294.04,False
+rolling,1,TREATED_AVG,clean,9,4,168.41,118.31,164.89,False
+rolling,1,TREATED_AVG,all 6 controls,9,4,190.01,118.31,171.44,False
+rolling,2,R01,clean,13,4,30.82,34.12,40.73,True
+rolling,2,R01,all 6 controls,13,4,35.76,34.12,25.82,False
+rolling,2,R04,clean,13,4,123.12,66.84,108.83,False
+rolling,2,R04,all 6 controls,13,4,131.36,66.84,103.16,False
+rolling,2,TREATED_AVG,clean,13,4,45.42,23.46,45.5,False
+rolling,2,TREATED_AVG,all 6 controls,13,4,41.15,23.46,35.21,False
+rolling,3,R01,clean,17,4,6.35,60.35,5.01,True
+rolling,3,R01,all 6 controls,17,4,74.34,60.35,48.99,False
+rolling,3,R04,clean,17,4,138.73,118.74,137.61,False
+rolling,3,R04,all 6 controls,17,4,82.53,118.74,77.19,True
+rolling,3,TREATED_AVG,clean,17,4,33.89,41.68,36.47,True
+rolling,3,TREATED_AVG,all 6 controls,17,4,56.75,41.68,28.25,False
+rolling,4,R01,clean,21,4,53.98,104.0,49.62,True
+rolling,4,R01,all 6 controls,21,4,93.96,104.0,68.25,True
+rolling,4,R04,clean,21,4,326.97,184.58,327.52,False
+rolling,4,R04,all 6 controls,21,4,183.84,184.58,230.31,True
+rolling,4,TREATED_AVG,clean,21,4,86.11,39.47,85.39,False
+rolling,4,TREATED_AVG,all 6 controls,21,4,37.42,39.47,46.1,True
+blocked,1,R01,clean,19,5,230.87,69.7,200.24,False
+blocked,1,R01,all 6 controls,19,5,200.97,69.7,66.27,False
+blocked,1,R04,clean,19,5,138.58,138.0,131.8,False
+blocked,1,R04,all 6 controls,19,5,118.1,138.0,115.48,True
+blocked,1,TREATED_AVG,clean,19,5,155.14,74.9,138.47,False
+blocked,1,TREATED_AVG,all 6 controls,19,5,72.48,74.9,63.32,True
+blocked,2,R01,clean,18,5,80.97,175.09,94.51,True
+blocked,2,R01,all 6 controls,18,5,78.18,175.09,105.07,True
+blocked,2,R04,clean,18,5,101.49,22.3,116.16,False
+blocked,2,R04,all 6 controls,18,5,12.17,22.3,29.66,True
+blocked,2,TREATED_AVG,clean,18,5,56.13,59.73,70.4,True
+blocked,2,TREATED_AVG,all 6 controls,18,5,27.55,59.73,32.43,True
+blocked,3,R01,clean,18,5,79.72,53.14,78.59,False
+blocked,3,R01,all 6 controls,18,5,94.46,53.14,82.78,False
+blocked,3,R04,clean,18,5,321.46,198.9,307.1,False
+blocked,3,R04,all 6 controls,18,5,296.46,198.9,284.92,False
+blocked,3,TREATED_AVG,clean,18,5,145.74,77.44,143.98,False
+blocked,3,TREATED_AVG,all 6 controls,18,5,145.19,77.44,134.98,False
+blocked,4,R01,clean,18,5,23.81,55.24,33.76,True
+blocked,4,R01,all 6 controls,18,5,56.12,55.24,48.17,False
+blocked,4,R04,clean,18,5,133.59,86.04,133.04,False
+blocked,4,R04,all 6 controls,18,5,94.91,86.04,80.3,False
+blocked,4,TREATED_AVG,clean,18,5,47.04,36.08,48.88,False
+blocked,4,TREATED_AVG,all 6 controls,18,5,23.91,36.08,29.71,True
+blocked,5,R01,clean,19,5,47.23,93.9,40.84,True
+blocked,5,R01,all 6 controls,19,5,91.34,93.9,60.21,True
+blocked,5,R04,clean,19,5,273.68,155.61,272.29,False
+blocked,5,R04,all 6 controls,19,5,159.18,155.61,187.87,False
+blocked,5,TREATED_AVG,clean,19,5,69.21,34.76,69.46,False
+blocked,5,TREATED_AVG,all 6 controls,19,5,29.69,34.76,36.94,True

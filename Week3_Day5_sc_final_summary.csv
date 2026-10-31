@@ -1,0 +1,4 @@
+treated_unit,donor_pool,weights,pre_MSPE,pre_RMSPE,constant_baseline_MSPE,skill_vs_constant,ATT_rev_per_product_day,ATT_pct,ATT_range_across_specs,verdict
+R01,"R07,R08 (frozen)","R07:0.60, R08:0.40",87.642,9.362,74.819,-0.171,19.446,6.353,12.8 to 26.8,inconclusive: pre-fit not better than constant baseline; same sign across specs (positive) but opposite to the other treated region
+R04,"R07,R08 (frozen)","R07:0.54, R08:0.46",191.802,13.849,118.847,-0.614,-13.744,-4.639,-23.8 to -7.4,inconclusive: pre-fit not better than constant baseline; same sign across specs (negative) but opposite to the other treated region
+TREATED_AVG,"R07,R08 (frozen)","R07:0.57, R08:0.43",93.317,9.66,50.239,-0.857,2.602,0.864,-3.9 to 9.4,inconclusive: pre-fit not better than constant baseline; estimate spans zero across specs
