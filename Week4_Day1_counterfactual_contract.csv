@@ -1,0 +1,15 @@
+field,type,unit,definition,example,source
+unit_id,text,-,treated_unit|product_id key used by the app filter,R01|ALL,Week 3 SC export
+treated_unit,text,-,"R01, R04 or TREATED_AVG (mean of R01 and R04)",R01,frozen
+product_id,text,-,"product, or ALL = mean over all products",P1,analysis panel
+donor_pool,text,-,"clean = R07,R08 (frozen primary); all6 = every control (alternate, spillover-exposed donors included)",clean,frozen Week 3
+week_start,date,YYYY-MM-DD,"first day of a 7-day block anchored at 2026-07-01 (25 pre, 8 post weeks)",2026-07-01,frozen Week 3
+period,text,-,"pre = learning period, post = treatment period",post,-
+actual_revenue,number,revenue per product-day,weekly mean of daily mean revenue per product,321.4,analysis panel
+synthetic_revenue,number,revenue per product-day,weighted donor average; weights fitted on pre period only,318.0,SC model
+gap,number,revenue per product-day,actual - synthetic (estimated effect only if pre-fit is adequate),3.4,derived
+cumulative_gap,number,"revenue per product, cumulative",running sum of weekly gap x 7 days over post weeks (0 in pre),23.8,derived
+fit_grade,A/B/C,-,"skill vs constant baseline: A >= 0.30, B >= 0.05, C < 0.05 (do not interpret gaps)",C,derived
+pre_RMSPE_index,number,index points (pre-mean = 100),sqrt of pre-period MSPE,9.7,SC model
+ATT_revenue_per_product_day,number,revenue per product-day,mean post gap,2.6,SC model
+uncertainty,-,-,NO confidence interval from SC; use placebo ranks in the Day 4 validation file,-,see Day 4

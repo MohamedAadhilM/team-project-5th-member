@@ -1,0 +1,88 @@
+// ===== Week 4 Power BI measures (Mohamed Aadhil M.) =====
+// Create these in a table named "_Measures" (Enter data -> blank table, then New measure).
+
+// ---- Core series (revenue per product-day)
+Actual Revenue = AVERAGE ( FactCounterfactual[actual_revenue] )
+Synthetic Revenue = AVERAGE ( FactCounterfactual[synthetic_revenue] )
+Gap = [Actual Revenue] - [Synthetic Revenue]
+Gap % = DIVIDE ( [Gap], [Synthetic Revenue] )
+
+Intervention Date =
+MINX ( FILTER ( ALL ( DimDate ), DimDate[period] = "post" ), DimDate[week_start] )
+
+Post Avg Gap = CALCULATE ( [Gap], DimDate[period] = "post" )
+Post Avg Gap % = CALCULATE ( [Gap %], DimDate[period] = "post" )
+
+// Running sum of weekly gap x 7 days over post weeks; blank before the intervention.
+Cumulative Gap =
+VAR cur = MAX ( DimDate[week_start] )
+VAR n = DISTINCTCOUNT ( FactCounterfactual[unit_pool_key] )
+RETURN
+    IF (
+        cur < [Intervention Date],
+        BLANK (),
+        DIVIDE (
+            7 * CALCULATE (
+                SUM ( FactCounterfactual[gap] ),
+                FILTER ( ALLSELECTED ( DimDate ), DimDate[week_start] <= cur && DimDate[period] = "post" )
+            ),
+            n
+        )
+    )
+
+Cumulative Gap (End) = CALCULATE ( [Cumulative Gap], DimDate[week_start] = MAX ( DimDate[week_start] ) )
+Weeks Gap Positive = CALCULATE ( COUNTROWS ( FILTER ( FactCounterfactual, FactCounterfactual[gap] > 0 ) ), DimDate[period] = "post" )
+Post Weeks = CALCULATE ( DISTINCTCOUNT ( DimDate[week_start] ), DimDate[period] = "post" )
+
+// ---- Pre-treatment fit
+Pre RMSPE (index pts) = AVERAGE ( FactFit[pre_RMSPE_index] )
+Pre RMSPE % of Revenue = DIVIDE ( AVERAGE ( FactFit[pre_RMSPE_pct_of_actual] ), 100 )
+Skill vs Constant = AVERAGE ( FactFit[skill_vs_constant] )
+Pre Correlation = AVERAGE ( FactFit[pre_correlation] )
+Fit Grade = SELECTEDVALUE ( DimUnit[fit_grade], "Mixed" )
+Fit Color =
+SWITCH ( [Fit Grade], "A", "#2E7D32", "B", "#F9A825", "C", "#C62828", "#9E9E9E" )
+Fit Warning =
+IF (
+    [Skill vs Constant] < 0.05,
+    "Pre-fit is no better than a flat baseline: the gap is not an effect estimate",
+    "Pre-fit acceptable: interpret the gap with caveats"
+)
+Segments Grade C = CALCULATE ( DISTINCTCOUNT ( DimUnit[unit_pool_key] ), DimUnit[fit_grade] = "C" )
+Segments Total = DISTINCTCOUNT ( DimUnit[unit_pool_key] )
+
+// ---- Segment validation (clean pool)
+Validation Verdict = SELECTEDVALUE ( FactValidation[verdict], "Select a single segment" )
+Placebo Rank (of 7) = SELECTEDVALUE ( FactValidation[placebo_rank_of_7], BLANK () )
+ATT LOO Min = MIN ( FactValidation[ATT_min_leave_one_donor_out] )
+ATT LOO Max = MAX ( FactValidation[ATT_max_leave_one_donor_out] )
+Sign Stable % = DIVIDE ( CALCULATE ( COUNTROWS ( FactValidation ), FactValidation[sign_stable_across_pools] = TRUE () ), COUNTROWS ( FactValidation ) )
+
+// ---- Donors / spillover
+Avg Donor Weight = AVERAGE ( FactDonor[weight] )
+Exposed Donor Weight Share =
+DIVIDE ( CALCULATE ( SUM ( FactDonor[weight] ), FactDonor[donor_type] = "exposed" ), SUM ( FactDonor[weight] ) )
+
+// ---- Interactivity helpers
+// What-if parameter table (Modeling -> New parameter, or:)
+// Gap Threshold = GENERATESERIES ( 0, 60, 1 )
+Gap Threshold Value = SELECTEDVALUE ( 'Gap Threshold'[Gap Threshold], 10 )
+Weeks Beyond Threshold =
+CALCULATE ( COUNTROWS ( FILTER ( FactCounterfactual, ABS ( FactCounterfactual[gap] ) > [Gap Threshold Value] ) ), DimDate[period] = "post" )
+
+// Metric switch for the main line chart (MetricSel is a disconnected table)
+Selected Metric =
+SWITCH (
+    SELECTEDVALUE ( MetricSel[Metric], "Actual revenue" ),
+    "Actual revenue", [Actual Revenue],
+    "Synthetic revenue", [Synthetic Revenue],
+    "Gap (actual - synthetic)", [Gap]
+)
+
+Chart Title =
+"Actual vs synthetic revenue | "
+    & SELECTEDVALUE ( DimUnit[region_label], "multiple regions" ) & " | "
+    & SELECTEDVALUE ( DimUnit[product_label], "multiple products" )
+    & " | fit grade " & [Fit Grade]
+
+Gap Color = IF ( [Gap] >= 0, "#2E7D32", "#C62828" )

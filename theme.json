@@ -1,0 +1,21 @@
+{
+  "name": "Causal Pricing - Counterfactual",
+  "dataColors": ["#1F77B4", "#FF7F0E", "#2E7D32", "#C62828", "#7B1FA2", "#00838F", "#F9A825", "#6D4C41"],
+  "background": "#FFFFFF",
+  "foreground": "#1F2933",
+  "tableAccent": "#1F77B4",
+  "good": "#2E7D32",
+  "neutral": "#F9A825",
+  "bad": "#C62828",
+  "maximum": "#1F77B4",
+  "center": "#F9A825",
+  "minimum": "#C62828",
+  "textClasses": {
+    "title": {"fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#1F2933"},
+    "label": {"fontFace": "Segoe UI", "fontSize": 10, "color": "#52606D"},
+    "callout": {"fontFace": "Segoe UI Semibold", "fontSize": 28, "color": "#1F2933"}
+  },
+  "visualStyles": {
+    "*": {"*": {"title": [{"show": true, "fontSize": 12}], "border": [{"show": true, "color": {"solid": {"color": "#E4E7EB"}}, "radius": 6}], "visualHeader": [{"show": false}]}}
+  }
+}
