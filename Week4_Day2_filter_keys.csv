@@ -1,0 +1,43 @@
+unit_id,treated_unit,product_id,donor_pool,pre_weeks,post_weeks,fit_grade,skill_vs_constant,region_filter_value,product_filter_value,app_default,interpretable
+R01|ALL,R01,ALL,clean,25,8,C,-0.171,R01,All products,False,False
+R01|ALL,R01,ALL,all6,25,8,B,0.08,R01,All products,False,True
+R04|ALL,R04,ALL,clean,25,8,C,-0.614,R04,All products,False,False
+R04|ALL,R04,ALL,all6,25,8,C,-0.016,R04,All products,False,False
+TREATED_AVG|ALL,TREATED_AVG,ALL,clean,25,8,C,-0.857,R01+R04 average,All products,True,False
+TREATED_AVG|ALL,TREATED_AVG,ALL,all6,25,8,C,-0.081,R01+R04 average,All products,False,False
+R01|P001,R01,P001,clean,25,8,C,-0.289,R01,P001,False,False
+R01|P001,R01,P001,all6,25,8,C,-0.197,R01,P001,False,False
+R04|P001,R04,P001,clean,25,8,C,-0.069,R04,P001,False,False
+R04|P001,R04,P001,all6,25,8,C,0.022,R04,P001,False,False
+TREATED_AVG|P001,TREATED_AVG,P001,clean,25,8,C,-0.297,R01+R04 average,P001,False,False
+TREATED_AVG|P001,TREATED_AVG,P001,all6,25,8,C,-0.187,R01+R04 average,P001,False,False
+R01|P002,R01,P002,clean,25,8,C,-0.385,R01,P002,False,False
+R01|P002,R01,P002,all6,25,8,C,-0.166,R01,P002,False,False
+R04|P002,R04,P002,clean,25,8,C,-0.249,R04,P002,False,False
+R04|P002,R04,P002,all6,25,8,C,0.008,R04,P002,False,False
+TREATED_AVG|P002,TREATED_AVG,P002,clean,25,8,C,-0.738,R01+R04 average,P002,False,False
+TREATED_AVG|P002,TREATED_AVG,P002,all6,25,8,C,-0.284,R01+R04 average,P002,False,False
+R01|P003,R01,P003,clean,25,8,C,-0.333,R01,P003,False,False
+R01|P003,R01,P003,all6,25,8,C,-0.02,R01,P003,False,False
+R04|P003,R04,P003,clean,25,8,C,-0.56,R04,P003,False,False
+R04|P003,R04,P003,all6,25,8,C,-0.101,R04,P003,False,False
+TREATED_AVG|P003,TREATED_AVG,P003,clean,25,8,C,-0.827,R01+R04 average,P003,False,False
+TREATED_AVG|P003,TREATED_AVG,P003,all6,25,8,C,-0.219,R01+R04 average,P003,False,False
+R01|P004,R01,P004,clean,25,8,C,-0.551,R01,P004,False,False
+R01|P004,R01,P004,all6,25,8,C,0.019,R01,P004,False,False
+R04|P004,R04,P004,clean,25,8,C,-0.192,R04,P004,False,False
+R04|P004,R04,P004,all6,25,8,B,0.251,R04,P004,False,True
+TREATED_AVG|P004,TREATED_AVG,P004,clean,25,8,C,-0.588,R01+R04 average,P004,False,False
+TREATED_AVG|P004,TREATED_AVG,P004,all6,25,8,B,0.145,R01+R04 average,P004,False,True
+R01|P005,R01,P005,clean,25,8,C,-0.746,R01,P005,False,False
+R01|P005,R01,P005,all6,25,8,C,0.039,R01,P005,False,False
+R04|P005,R04,P005,clean,25,8,C,-0.537,R04,P005,False,False
+R04|P005,R04,P005,all6,25,8,B,0.121,R04,P005,False,True
+TREATED_AVG|P005,TREATED_AVG,P005,clean,25,8,C,-2.646,R01+R04 average,P005,False,False
+TREATED_AVG|P005,TREATED_AVG,P005,all6,25,8,C,-0.05,R01+R04 average,P005,False,False
+R01|P006,R01,P006,clean,25,8,C,-0.516,R01,P006,False,False
+R01|P006,R01,P006,all6,25,8,C,-0.101,R01,P006,False,False
+R04|P006,R04,P006,clean,25,8,C,-0.901,R04,P006,False,False
+R04|P006,R04,P006,all6,25,8,C,-0.009,R04,P006,False,False
+TREATED_AVG|P006,TREATED_AVG,P006,clean,25,8,C,-1.823,R01+R04 average,P006,False,False
+TREATED_AVG|P006,TREATED_AVG,P006,all6,25,8,C,-0.515,R01+R04 average,P006,False,False

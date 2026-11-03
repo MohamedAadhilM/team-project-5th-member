@@ -1,0 +1,10 @@
+check,passed,detail
+"unique key (unit_id, donor_pool, week_start)",True,0
+every unit has the same number of weeks (33 = 25 pre + 8 post),True,[33]
+no missing values in actual/synthetic/gap,True,0
+gap = actual - synthetic,True,max abs diff 0.00e+00
+cumulative gap is 0 throughout the pre period,True,-
+weeks start on 7-day grid anchored at 2026-07-01,True,-
+treated regions in app filter list,True,"['R01', 'R04', 'TREATED_AVG']"
+products align with app product filter,True,"['P001', 'P002', 'P003', 'P004', 'P005', 'P006']"
+every unit_id has a fit-metrics row,True,21
