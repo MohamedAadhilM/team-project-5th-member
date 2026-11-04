@@ -1,0 +1,43 @@
+unit_id,treated_unit,product_id,donor_pool,mean_gap,mean_actual,mean_synthetic,cumulative_gap_end,weeks_gap_positive,post_weeks,gap_pct_of_synthetic,fit_grade,reading
+R01|ALL,R01,ALL,all6,14.557,325.552,310.994,815.2,6,8,4.681,B,gap interpretable with caveats
+R01|ALL,R01,ALL,clean,19.446,325.552,306.105,1088.998,7,8,6.353,C,gap not interpretable: pre-fit no better than constant
+R01|P001,R01,P001,all6,-4.347,179.888,184.235,-243.452,4,8,-2.36,C,gap not interpretable: pre-fit no better than constant
+R01|P001,R01,P001,clean,-3.575,179.888,183.463,-200.178,4,8,-1.948,C,gap not interpretable: pre-fit no better than constant
+R01|P002,R01,P002,all6,20.319,236.591,216.272,1137.858,6,8,9.395,C,gap not interpretable: pre-fit no better than constant
+R01|P002,R01,P002,clean,22.304,236.591,214.287,1249.001,6,8,10.408,C,gap not interpretable: pre-fit no better than constant
+R01|P003,R01,P003,all6,15.827,300.534,284.706,886.328,4,8,5.559,C,gap not interpretable: pre-fit no better than constant
+R01|P003,R01,P003,clean,20.278,300.534,280.256,1135.542,4,8,7.235,C,gap not interpretable: pre-fit no better than constant
+R01|P004,R01,P004,all6,43.919,421.773,377.854,2459.439,5,8,11.623,C,gap not interpretable: pre-fit no better than constant
+R01|P004,R01,P004,clean,54.12,421.773,367.653,3030.734,4,8,14.72,C,gap not interpretable: pre-fit no better than constant
+R01|P005,R01,P005,all6,16.178,322.849,306.67,905.984,5,8,5.275,C,gap not interpretable: pre-fit no better than constant
+R01|P005,R01,P005,clean,11.028,322.849,311.82,617.594,6,8,3.537,C,gap not interpretable: pre-fit no better than constant
+R01|P006,R01,P006,all6,15.332,491.675,476.343,858.61,5,8,3.219,C,gap not interpretable: pre-fit no better than constant
+R01|P006,R01,P006,clean,31.826,491.675,459.849,1782.254,6,8,6.921,C,gap not interpretable: pre-fit no better than constant
+R04|ALL,R04,ALL,all6,-19.258,282.554,301.811,-1078.434,4,8,-6.381,C,gap not interpretable: pre-fit no better than constant
+R04|ALL,R04,ALL,clean,-13.744,282.554,296.298,-769.684,3,8,-4.639,C,gap not interpretable: pre-fit no better than constant
+R04|P001,R04,P001,all6,-15.144,163.708,178.852,-848.077,2,8,-8.467,C,gap not interpretable: pre-fit no better than constant
+R04|P001,R04,P001,clean,-12.506,163.708,176.214,-700.357,2,8,-7.097,C,gap not interpretable: pre-fit no better than constant
+R04|P002,R04,P002,all6,-17.02,194.493,211.513,-953.118,4,8,-8.047,C,gap not interpretable: pre-fit no better than constant
+R04|P002,R04,P002,clean,-10.65,194.493,205.143,-596.385,4,8,-5.191,C,gap not interpretable: pre-fit no better than constant
+R04|P003,R04,P003,all6,-22.621,254.001,276.621,-1266.752,3,8,-8.177,C,gap not interpretable: pre-fit no better than constant
+R04|P003,R04,P003,clean,-16.953,254.001,270.954,-949.356,4,8,-6.257,C,gap not interpretable: pre-fit no better than constant
+R04|P004,R04,P004,all6,23.537,380.362,356.825,1318.077,5,8,6.596,B,gap interpretable with caveats
+R04|P004,R04,P004,clean,18.581,380.362,361.781,1040.536,5,8,5.136,C,gap not interpretable: pre-fit no better than constant
+R04|P005,R04,P005,all6,-6.261,294.674,300.934,-350.598,2,8,-2.08,B,gap interpretable with caveats
+R04|P005,R04,P005,clean,-20.404,294.674,315.077,-1142.605,3,8,-6.476,C,gap not interpretable: pre-fit no better than constant
+R04|P006,R04,P006,all6,-72.168,408.085,480.253,-4041.426,3,8,-15.027,C,gap not interpretable: pre-fit no better than constant
+R04|P006,R04,P006,clean,-46.743,408.085,454.828,-2617.6,3,8,-10.277,C,gap not interpretable: pre-fit no better than constant
+TREATED_AVG|ALL,TREATED_AVG,ALL,all6,-2.841,303.798,306.639,-159.096,4,8,-0.926,C,gap not interpretable: pre-fit no better than constant
+TREATED_AVG|ALL,TREATED_AVG,ALL,clean,2.602,303.798,301.196,145.734,6,8,0.864,C,gap not interpretable: pre-fit no better than constant
+TREATED_AVG|P001,TREATED_AVG,P001,all6,-9.615,171.704,181.319,-538.467,2,8,-5.303,C,gap not interpretable: pre-fit no better than constant
+TREATED_AVG|P001,TREATED_AVG,P001,clean,-8.138,171.704,179.841,-455.711,2,8,-4.525,C,gap not interpretable: pre-fit no better than constant
+TREATED_AVG|P002,TREATED_AVG,P002,all6,1.281,215.21,213.929,71.749,5,8,0.599,C,gap not interpretable: pre-fit no better than constant
+TREATED_AVG|P002,TREATED_AVG,P002,clean,5.504,215.21,209.707,308.204,4,8,2.624,C,gap not interpretable: pre-fit no better than constant
+TREATED_AVG|P003,TREATED_AVG,P003,all6,-3.135,276.915,280.05,-175.562,4,8,-1.119,C,gap not interpretable: pre-fit no better than constant
+TREATED_AVG|P003,TREATED_AVG,P003,clean,1.295,276.915,275.621,72.493,3,8,0.47,C,gap not interpretable: pre-fit no better than constant
+TREATED_AVG|P004,TREATED_AVG,P004,all6,33.853,400.915,367.063,1895.755,4,8,9.223,B,gap interpretable with caveats
+TREATED_AVG|P004,TREATED_AVG,P004,clean,36.196,400.915,364.719,2026.972,5,8,9.924,C,gap not interpretable: pre-fit no better than constant
+TREATED_AVG|P005,TREATED_AVG,P005,all6,4.971,308.625,303.654,278.39,6,8,1.637,C,gap not interpretable: pre-fit no better than constant
+TREATED_AVG|P005,TREATED_AVG,P005,clean,-4.907,308.625,313.532,-274.815,3,8,-1.565,C,gap not interpretable: pre-fit no better than constant
+TREATED_AVG|P006,TREATED_AVG,P006,all6,-35.764,449.404,485.168,-2002.779,3,8,-7.371,C,gap not interpretable: pre-fit no better than constant
+TREATED_AVG|P006,TREATED_AVG,P006,clean,-7.982,449.404,457.386,-446.974,4,8,-1.745,C,gap not interpretable: pre-fit no better than constant

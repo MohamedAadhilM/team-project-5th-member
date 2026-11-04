@@ -1,0 +1,43 @@
+unit_id,donor_pool,pre_weeks,pre_MSPE_index,pre_RMSPE_index,pre_RMSPE_pct_of_actual,constant_baseline_MSPE,skill_vs_constant,fit_grade,pre_correlation,max_abs_pre_gap,limitation
+R01|ALL,clean,25,87.642,9.362,9.362,74.819,-0.171,C,0.416,100.639,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R01|ALL,all6,25,68.808,8.295,8.295,74.819,0.08,B,0.377,61.478,-
+R04|ALL,clean,25,191.802,13.849,13.849,118.847,-0.614,C,0.007,83.227,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R04|ALL,all6,25,120.711,10.987,10.987,118.847,-0.016,C,0.189,80.325,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+TREATED_AVG|ALL,clean,25,93.317,9.66,9.66,50.239,-0.857,C,0.257,76.881,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+TREATED_AVG|ALL,all6,25,54.331,7.371,7.371,50.239,-0.081,C,0.249,62.656,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R01|P001,clean,25,299.334,17.301,17.301,232.31,-0.289,C,-0.015,55.37,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R01|P001,all6,25,278.171,16.678,16.678,232.31,-0.197,C,-0.117,52.0,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R04|P001,clean,25,271.463,16.476,16.476,254.055,-0.069,C,0.183,65.244,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R04|P001,all6,25,248.523,15.765,15.765,254.055,0.022,C,0.24,65.219,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+TREATED_AVG|P001,clean,25,184.423,13.58,13.58,142.183,-0.297,C,0.112,52.242,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+TREATED_AVG|P001,all6,25,168.785,12.992,12.992,142.183,-0.187,C,0.036,53.515,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R01|P002,clean,25,333.528,18.263,18.263,240.776,-0.385,C,0.129,89.705,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R01|P002,all6,25,280.692,16.754,16.754,240.776,-0.166,C,0.074,85.766,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R04|P002,clean,25,256.969,16.03,16.03,205.816,-0.249,C,0.242,72.168,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R04|P002,all6,25,204.132,14.287,14.287,205.816,0.008,C,0.257,60.428,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+TREATED_AVG|P002,clean,25,195.548,13.984,13.984,112.526,-0.738,C,0.174,65.582,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+TREATED_AVG|P002,all6,25,144.473,12.02,12.02,112.526,-0.284,C,0.069,52.868,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R01|P003,clean,25,402.997,20.075,20.075,302.252,-0.333,C,0.27,124.064,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R01|P003,all6,25,308.193,17.555,17.555,302.252,-0.02,C,0.26,114.435,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R04|P003,clean,25,624.43,24.989,24.989,400.241,-0.56,C,0.044,152.637,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R04|P003,all6,25,440.827,20.996,20.996,400.241,-0.101,C,0.105,116.948,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+TREATED_AVG|P003,clean,25,363.15,19.057,19.057,198.718,-0.827,C,0.189,128.352,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+TREATED_AVG|P003,all6,25,242.157,15.561,15.561,198.718,-0.219,C,0.112,95.646,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R01|P004,clean,25,631.764,25.135,25.135,407.3,-0.551,C,0.057,228.647,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R01|P004,all6,25,399.603,19.99,19.99,407.3,0.019,C,0.31,191.452,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R04|P004,clean,25,546.018,23.367,23.367,457.922,-0.192,C,0.259,218.238,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R04|P004,all6,25,342.865,18.517,18.517,457.922,0.251,B,0.501,150.62,-
+TREATED_AVG|P004,clean,25,435.733,20.874,20.874,274.415,-0.588,C,0.186,208.865,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+TREATED_AVG|P004,all6,25,234.573,15.316,15.316,274.415,0.145,B,0.429,109.609,-
+R01|P005,clean,25,519.438,22.791,22.791,297.514,-0.746,C,0.003,178.26,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R01|P005,all6,25,285.918,16.909,16.909,297.514,0.039,C,0.29,125.702,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R04|P005,clean,25,714.47,26.73,26.73,464.781,-0.537,C,0.051,193.033,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R04|P005,all6,25,408.424,20.209,20.209,464.781,0.121,B,0.383,171.379,-
+TREATED_AVG|P005,clean,25,375.809,19.386,19.386,103.075,-2.646,C,-0.181,107.008,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+TREATED_AVG|P005,all6,25,108.243,10.404,10.404,103.075,-0.05,C,0.469,79.536,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R01|P006,clean,25,471.33,21.71,21.71,310.958,-0.516,C,0.325,236.82,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R01|P006,all6,25,342.343,18.503,18.503,310.958,-0.101,C,0.333,231.983,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R04|P006,clean,25,1199.767,34.638,34.638,631.027,-0.901,C,-0.21,270.224,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+R04|P006,all6,25,636.794,25.235,25.235,631.027,-0.009,C,0.268,286.95,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+TREATED_AVG|P006,clean,25,572.355,23.924,23.924,202.765,-1.823,C,0.003,207.968,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
+TREATED_AVG|P006,all6,25,307.284,17.53,17.53,202.765,-0.515,C,0.083,200.099,Counterfactual does not track pre-treatment revenue; do not read the post gap as an effect
