@@ -1,0 +1,43 @@
+unit_pool_key,unit_id,treated_unit,product_id,donor_pool,fit_grade,region_label,product_label,pool_label
+R01|ALL|clean,R01|ALL,R01,ALL,clean,C,R01,All products,"Clean donors R07,R08 (frozen)"
+R01|ALL|all6,R01|ALL,R01,ALL,all6,B,R01,All products,All 6 controls (alternate)
+R04|ALL|clean,R04|ALL,R04,ALL,clean,C,R04,All products,"Clean donors R07,R08 (frozen)"
+R04|ALL|all6,R04|ALL,R04,ALL,all6,C,R04,All products,All 6 controls (alternate)
+TREATED_AVG|ALL|clean,TREATED_AVG|ALL,TREATED_AVG,ALL,clean,C,R01+R04 average,All products,"Clean donors R07,R08 (frozen)"
+TREATED_AVG|ALL|all6,TREATED_AVG|ALL,TREATED_AVG,ALL,all6,C,R01+R04 average,All products,All 6 controls (alternate)
+R01|P001|clean,R01|P001,R01,P001,clean,C,R01,P001,"Clean donors R07,R08 (frozen)"
+R01|P001|all6,R01|P001,R01,P001,all6,C,R01,P001,All 6 controls (alternate)
+R04|P001|clean,R04|P001,R04,P001,clean,C,R04,P001,"Clean donors R07,R08 (frozen)"
+R04|P001|all6,R04|P001,R04,P001,all6,C,R04,P001,All 6 controls (alternate)
+TREATED_AVG|P001|clean,TREATED_AVG|P001,TREATED_AVG,P001,clean,C,R01+R04 average,P001,"Clean donors R07,R08 (frozen)"
+TREATED_AVG|P001|all6,TREATED_AVG|P001,TREATED_AVG,P001,all6,C,R01+R04 average,P001,All 6 controls (alternate)
+R01|P002|clean,R01|P002,R01,P002,clean,C,R01,P002,"Clean donors R07,R08 (frozen)"
+R01|P002|all6,R01|P002,R01,P002,all6,C,R01,P002,All 6 controls (alternate)
+R04|P002|clean,R04|P002,R04,P002,clean,C,R04,P002,"Clean donors R07,R08 (frozen)"
+R04|P002|all6,R04|P002,R04,P002,all6,C,R04,P002,All 6 controls (alternate)
+TREATED_AVG|P002|clean,TREATED_AVG|P002,TREATED_AVG,P002,clean,C,R01+R04 average,P002,"Clean donors R07,R08 (frozen)"
+TREATED_AVG|P002|all6,TREATED_AVG|P002,TREATED_AVG,P002,all6,C,R01+R04 average,P002,All 6 controls (alternate)
+R01|P003|clean,R01|P003,R01,P003,clean,C,R01,P003,"Clean donors R07,R08 (frozen)"
+R01|P003|all6,R01|P003,R01,P003,all6,C,R01,P003,All 6 controls (alternate)
+R04|P003|clean,R04|P003,R04,P003,clean,C,R04,P003,"Clean donors R07,R08 (frozen)"
+R04|P003|all6,R04|P003,R04,P003,all6,C,R04,P003,All 6 controls (alternate)
+TREATED_AVG|P003|clean,TREATED_AVG|P003,TREATED_AVG,P003,clean,C,R01+R04 average,P003,"Clean donors R07,R08 (frozen)"
+TREATED_AVG|P003|all6,TREATED_AVG|P003,TREATED_AVG,P003,all6,C,R01+R04 average,P003,All 6 controls (alternate)
+R01|P004|clean,R01|P004,R01,P004,clean,C,R01,P004,"Clean donors R07,R08 (frozen)"
+R01|P004|all6,R01|P004,R01,P004,all6,C,R01,P004,All 6 controls (alternate)
+R04|P004|clean,R04|P004,R04,P004,clean,C,R04,P004,"Clean donors R07,R08 (frozen)"
+R04|P004|all6,R04|P004,R04,P004,all6,B,R04,P004,All 6 controls (alternate)
+TREATED_AVG|P004|clean,TREATED_AVG|P004,TREATED_AVG,P004,clean,C,R01+R04 average,P004,"Clean donors R07,R08 (frozen)"
+TREATED_AVG|P004|all6,TREATED_AVG|P004,TREATED_AVG,P004,all6,B,R01+R04 average,P004,All 6 controls (alternate)
+R01|P005|clean,R01|P005,R01,P005,clean,C,R01,P005,"Clean donors R07,R08 (frozen)"
+R01|P005|all6,R01|P005,R01,P005,all6,C,R01,P005,All 6 controls (alternate)
+R04|P005|clean,R04|P005,R04,P005,clean,C,R04,P005,"Clean donors R07,R08 (frozen)"
+R04|P005|all6,R04|P005,R04,P005,all6,B,R04,P005,All 6 controls (alternate)
+TREATED_AVG|P005|clean,TREATED_AVG|P005,TREATED_AVG,P005,clean,C,R01+R04 average,P005,"Clean donors R07,R08 (frozen)"
+TREATED_AVG|P005|all6,TREATED_AVG|P005,TREATED_AVG,P005,all6,C,R01+R04 average,P005,All 6 controls (alternate)
+R01|P006|clean,R01|P006,R01,P006,clean,C,R01,P006,"Clean donors R07,R08 (frozen)"
+R01|P006|all6,R01|P006,R01,P006,all6,C,R01,P006,All 6 controls (alternate)
+R04|P006|clean,R04|P006,R04,P006,clean,C,R04,P006,"Clean donors R07,R08 (frozen)"
+R04|P006|all6,R04|P006,R04,P006,all6,C,R04,P006,All 6 controls (alternate)
+TREATED_AVG|P006|clean,TREATED_AVG|P006,TREATED_AVG,P006,clean,C,R01+R04 average,P006,"Clean donors R07,R08 (frozen)"
+TREATED_AVG|P006|all6,TREATED_AVG|P006,TREATED_AVG,P006,all6,C,R01+R04 average,P006,All 6 controls (alternate)
