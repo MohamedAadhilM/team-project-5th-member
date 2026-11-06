@@ -1,0 +1,13 @@
+test_att_matches_mean_post_gap (test_week4.TestExports.test_att_matches_mean_post_gap) ... ok
+test_cumulative_gap_is_running_sum_times_seven (test_week4.TestExports.test_cumulative_gap_is_running_sum_times_seven) ... ok
+test_every_unit_has_fit_row (test_week4.TestExports.test_every_unit_has_fit_row) ... ok
+test_gap_equals_actual_minus_synthetic (test_week4.TestExports.test_gap_equals_actual_minus_synthetic) ... ok
+test_grade_thresholds (test_week4.TestExports.test_grade_thresholds) ... ok
+test_no_missing (test_week4.TestExports.test_no_missing) ... ok
+test_unique_keys (test_week4.TestExports.test_unique_keys) ... ok
+test_weeks_per_unit (test_week4.TestExports.test_weeks_per_unit) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.067s
+
+OK

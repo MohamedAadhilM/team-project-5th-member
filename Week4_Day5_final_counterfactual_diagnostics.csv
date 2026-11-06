@@ -1,0 +1,22 @@
+unit_id,pre_weeks,post_weeks,pre_RMSPE_index,pre_RMSPE_pct_of_actual,skill_vs_constant,fit_grade,pre_correlation,mean_gap,gap_pct_of_synthetic,cumulative_gap_end,weeks_gap_positive,sign_stable_across_pools,placebo_rank_of_7,verdict
+R01|ALL,25,8,9.362,9.362,-0.171,C,0.416,19.446,6.353,1088.998,7,True,4.0,Unsupported: pre-fit no better than constant baseline
+R04|ALL,25,8,13.849,13.849,-0.614,C,0.007,-13.744,-4.639,-769.684,3,True,3.0,Unsupported: pre-fit no better than constant baseline
+TREATED_AVG|ALL,25,8,9.66,9.66,-0.857,C,0.257,2.602,0.864,145.734,6,False,,Unsupported: pre-fit no better than constant baseline
+R01|P001,25,8,17.301,17.301,-0.289,C,-0.015,-3.575,-1.948,-200.178,4,False,6.0,Unsupported: pre-fit no better than constant baseline
+R04|P001,25,8,16.476,16.476,-0.069,C,0.183,-12.506,-7.097,-700.357,2,False,5.0,Unsupported: pre-fit no better than constant baseline
+TREATED_AVG|P001,25,8,13.58,13.58,-0.297,C,0.112,-8.138,-4.525,-455.711,2,False,,Unsupported: pre-fit no better than constant baseline
+R01|P002,25,8,18.263,18.263,-0.385,C,0.129,22.304,10.408,1249.001,6,True,6.0,Unsupported: pre-fit no better than constant baseline
+R04|P002,25,8,16.03,16.03,-0.249,C,0.242,-10.65,-5.191,-596.385,4,True,4.0,Unsupported: pre-fit no better than constant baseline
+TREATED_AVG|P002,25,8,13.984,13.984,-0.738,C,0.174,5.504,2.624,308.204,4,True,,Unsupported: pre-fit no better than constant baseline
+R01|P003,25,8,20.075,20.075,-0.333,C,0.27,20.278,7.235,1135.542,4,True,3.0,Unsupported: pre-fit no better than constant baseline
+R04|P003,25,8,24.989,24.989,-0.56,C,0.044,-16.953,-6.257,-949.356,4,True,3.0,Unsupported: pre-fit no better than constant baseline
+TREATED_AVG|P003,25,8,19.057,19.057,-0.827,C,0.189,1.295,0.47,72.493,3,False,,Unsupported: pre-fit no better than constant baseline
+R01|P004,25,8,25.135,25.135,-0.551,C,0.057,54.12,14.72,3030.734,4,True,2.0,Unsupported: pre-fit no better than constant baseline
+R04|P004,25,8,23.367,23.367,-0.192,C,0.259,18.581,5.136,1040.536,5,True,7.0,Unsupported: pre-fit no better than constant baseline
+TREATED_AVG|P004,25,8,20.874,20.874,-0.588,C,0.186,36.196,9.924,2026.972,5,True,,Unsupported: pre-fit no better than constant baseline
+R01|P005,25,8,22.791,22.791,-0.746,C,0.003,11.028,3.537,617.594,6,False,2.0,Unsupported: pre-fit no better than constant baseline
+R04|P005,25,8,26.73,26.73,-0.537,C,0.051,-20.404,-6.476,-1142.605,3,False,5.0,Unsupported: pre-fit no better than constant baseline
+TREATED_AVG|P005,25,8,19.386,19.386,-2.646,C,-0.181,-4.907,-1.565,-274.815,3,False,,Unsupported: pre-fit no better than constant baseline
+R01|P006,25,8,21.71,21.71,-0.516,C,0.325,31.826,6.921,1782.254,6,True,2.0,Unsupported: pre-fit no better than constant baseline
+R04|P006,25,8,34.638,34.638,-0.901,C,-0.21,-46.743,-10.277,-2617.6,3,True,1.0,Unsupported: pre-fit no better than constant baseline
+TREATED_AVG|P006,25,8,23.924,23.924,-1.823,C,0.003,-7.982,-1.745,-446.974,4,False,,Unsupported: pre-fit no better than constant baseline
